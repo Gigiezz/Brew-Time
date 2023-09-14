@@ -1,0 +1,482 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../Fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../Fonts/Poppins-Regular.ttf);
+}
+
+.top_section {
+    background-image: url(../Images/Home/TopBg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 186px;
+}
+
+/* Top Sec Content styles */
+
+.top_sec_content {
+    text-align: center;
+    margin-top: 94px;
+}
+
+.top_sec_content h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130px;
+    /* 100% */
+    letter-spacing: -0.1px;
+}
+
+.top_sec_content p {
+    color: #938E8E;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 100% */
+    letter-spacing: -0.1px;
+}
+
+.top_cont_btn {
+    /* margin-left: 470px; */
+    margin-top: 36px;
+    justify-content: center;
+}
+
+.top_cont_btn button,
+.menu_button button {
+    border-radius: 6px;
+    border: 1px solid var(--neutral-700, #DAE0E6);
+    background: var(--base-white, #FFF);
+    width: 128px;
+    height: 46px;
+    /* Shadow/XSM */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+    margin-left: 16px;
+}
+
+.white_btn {
+    color: black;
+    font-family: "Inter";
+}
+
+.light_btn {
+    background-color: #D3AD7F !important;
+    border: 0 !important;
+    color: white !important;
+}
+
+.top_bot_sec {
+    background-color: #101011;
+    padding-bottom: 110px;
+}
+
+.top_bot_sec div h2 {
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    margin-left: 30px;
+    margin-top: 23px;
+}
+.dropdown-menu{
+    background: transparent !important;
+}
+.burger_men{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: none;
+}
+.top_icons img{
+    cursor: pointer;
+}
+/* Exclusive Coffe Section Styles */
+
+.ex_cof {
+    background-color: #191919;
+    padding-bottom: 90px;
+}
+
+.ex_cof_tittle h2 {
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    transform: translateY(-25px);
+}
+
+.ex_cof_tittle {
+    justify-content: center;
+}
+
+.ex_cof_tittle img {
+    transform: translateY(-28px);
+}
+
+.card {
+    background-color: transparent !important;
+    text-align: center;
+    border: 0 !important;
+    cursor: pointer;
+}
+
+.card-title {
+    color: #D3AD7F !important;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.card-text {
+    color: #938E8E;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    text-transform: uppercase;
+}
+
+.card-body h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.styled_card {
+    background-color: #101011 !important;
+}
+
+.card {
+    margin: auto;
+}
+
+.line_box img {
+    cursor: pointer;
+}
+
+
+
+/* Mid Section */
+.mid_section {
+    background-color: #101011;
+    padding-bottom: 129px;
+}
+
+.mid_box {
+    margin-top: 119px;
+}
+
+.menu_button button {
+    transform: translateY(-20px);
+}
+
+.menu_button button:hover {
+    color: black !important;
+    transition: 1.5s;
+    scale: 1.1;
+}
+
+.mid_item {
+    margin: 40px;
+}
+
+.mid_item p {
+    color: #979797;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 22px;
+}
+
+.mid_bottom_texts h3 {
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.diff_text {
+    color: #D3AD7F;
+    font-family: "Bebas Neue";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* mid bottom section style */
+
+.mid_bottom {
+    background-color: #101011;
+    padding: 40px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.mid_bottom_cont {
+    padding: 30px;
+}
+
+.mid_bottom_cont img {
+    cursor: pointer;
+}
+
+/* bottom top section style */
+
+.bottom_top_section {
+    padding-top: 74px;
+    background-color: #101011;
+    padding-bottom: 64px;
+}
+
+.bottom_top_texts {
+    padding-bottom: 64px;
+}
+
+.bottom_top_texts h2, .footer_top_texts h2 {
+    color: #D3AD7F;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 117.647% */
+    letter-spacing: -0.68px;
+}
+
+.bottom_top_texts p, .footer_top_texts p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: -0.1px;
+}
+
+.card_tittle_texts img {
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+
+.item_top h2 {
+    color: #FFF !important;
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    /* 87.5% */
+    letter-spacing: -0.1px;
+}
+
+.item {
+    border-right: 2px solid white;
+    padding: 32px;
+}
+
+.item p {
+    margin-top: 19px;
+    color: #FFF;
+    /* Text L/Regular */
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.item a {
+    color: #D3AD7F;
+    /* Text Button/Semibold Large */
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.bottom_top_cards {
+    padding-bottom: 64px;
+}
+
+.bottom_top_sec_btn button {
+    display: inline !important;
+}
+
+/* Our Guestbook section style */
+
+.bottom {
+    padding-top: 74px;
+    background-color: #101011;
+    padding-bottom: 160px;
+}
+
+.guestbook_tittle {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+.guestbook_tittle h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    /* 150% */
+    text-transform: capitalize;
+    margin: 0px 3vw 0px 3vw;
+}
+
+.guestbook_box {
+    padding: 33px;
+}
+
+.guestbook_item {
+    padding-top: 128px;
+    width: 377.337px;
+    height: 198.102px;
+    background-color: #191919;
+    color: #938E8E;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5.146px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.guestbook_item p {
+    margin: 17px;
+    color: #938E8E;
+    font-family: "Poppins";
+    font-size: 13.721px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.297px;
+    text-transform: lowercase;
+}
+
+.styled_item {
+    width: 440px;
+    height: 231px;
+    padding-top: 153px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.styled_item p{
+    margin: 27px;
+}
+.guest_avatar h5{
+    color: white;
+}
+.guest_avatar h6{
+    margin-top: 15px;
+}
+.guestbook_item:hover, .styled_item:hover{
+    scale: 1.1;
+    transition: 1.6s;
+}
+
+/* map section */
+
+.map_section iframe{
+    width: 100%;
+    height: 300px;
+    opacity: 0.8;
+    overflow-x: hidden;
+}
+
+/* footer top section style */
+
+.footer_top{
+    background-color: #101011;
+    padding-bottom: 64px;
+    padding-top: 48px;
+}
+
+.footer_top_texts{
+    padding-bottom: 48px;
+}
+.form_input input{
+    height: 46px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #DAE0E6;
+    outline: none;
+    color: white;
+    padding: 10px;
+} 
+.message_input{
+    margin-top: 24px;
+    height: 124px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #DAE0E6;
+    outline: none;
+    color: white;
+    padding: 10px;
+}

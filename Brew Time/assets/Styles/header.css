@@ -1,0 +1,67 @@
+/* Top Header Styles */
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.search_inp {
+    border-radius: 6px 0px 0px 6px;
+    background: rgba(68, 67, 67, 0.42);
+    width: 500px;
+    border: 0;
+    color: white;
+    padding: 10px;
+    outline: none;
+}
+
+.search_inp::placeholder {
+    color: white;
+}
+
+.top_icons {
+    display: flex;
+}
+
+.top_icons img {
+    margin-left: 40px;
+}
+
+.btn {
+    background: #D3AD7F !important;
+    color: white !important;
+    border: 0 !important;
+}
+
+.btn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../Icons/burger.svg) !important;
+}
+
+/*Top Navigation */
+
+.line {
+    background-color: #ffffff;
+    height: 2px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.nav_ul li {
+    list-style: none;
+    margin-right: 32px;
+}
+
+.nav_ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}

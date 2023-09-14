@@ -1,0 +1,94 @@
+@media screen and (max-width: 992px) {
+    .top_icons{
+        display: none !important;
+    }
+    .search_inp {
+        width: 100% !important;
+    }
+    .nav_cont {
+        display: none;
+    }
+
+    .top_sec_content h1 {
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+
+    .top_sec_content p {
+        font-size: 4vw;
+        margin-top: 75px;
+        line-height: 5vw;
+    }
+
+    .white_btn {
+        display: none;
+    }
+
+    .top_bot_sec div {
+        flex-direction: column;
+    }
+
+    .top_bot_sec div h2 {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+
+    .top_bot_sec div img {
+        width: 40vw;
+        margin: auto;
+    }
+
+    .ex_cof_tittle h2 {
+        font-size: 5vw;
+    }
+
+    .hidden_card {
+        display: none !important;
+    }
+
+    .mid_box,
+    .mid_top_texts {
+        flex-direction: column;
+    }
+
+    .mid_item img {
+        margin-left: 22vw !important;
+        width: 20vw;
+    }
+
+    .mid_bottom_texts h3 {
+        text-align: center;
+    }
+
+    .mid_img img {
+        width: 100%;
+    }
+
+    .mid_item_left {
+        width: 9vw !important;
+        margin-left: 188px !important;
+    }
+
+    .mid_bottom_cont img {
+        margin: 6px;
+    }
+
+    .bottom_top_cards {
+        flex-wrap: wrap;
+    }
+
+    .item {
+        border-right: 0px;
+        padding: 32px;
+    }
+
+    .guestbook_item{
+        display: none;
+    }
+    .styled_item{
+        width: 100%;
+    }
+    .burger_men{
+        display: flex !important;
+    }
+}

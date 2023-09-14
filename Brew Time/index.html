@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Time</title>
+    <link rel="stylesheet" href="assets/Styles/index.css">
+    <link rel="stylesheet" href="assets/Styles/media.css">
+    <link rel="stylesheet" href="assets/Styles/footer.css">
+    <link rel="stylesheet" href="assets/Styles/header.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Top Section / Nav / Header -->
+    <section class="top_section">
+        <header class="container">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                <a class="navbar-brand" href="#"><img src="assets/Images/Logo.svg" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0 d-flex">
+                        <input class="search_inp mr-sm-2" type="search" placeholder="Search someting here..."
+                            aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <ul class="burger_men nav_ul">
+                        <li><a href="menu.html" target="_blank">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li>
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Contact
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top_icons">
+                    <img src="assets/Icons/shopping cart.svg" alt="svg">
+                    <img src="assets/Icons/person.svg" alt="svg">
+                    <img src="assets/Icons/heart.svg" alt="svg">
+                </div>
+            </nav>
+        </header>
+        <hr class="line">
+        <nav class="container nav_cont">
+            <ul class="d-flex nav_ul">
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- Top Section Content -->
+        <div class="top_sec_content container">
+            <h1>"Savor the moment<br>
+                with every sip"</h1>
+            <p>Discover our carefully crafted coffee blends, made with love and passion</p>
+            <div class="d-flex top_cont_btn">
+                <button class="white_btn" type="button">About</button>
+                <button class="light_btn" type="button">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- Top Section Bottom Content Text -->
+    <section class="top_bot_sec">
+        <div class="d-flex container justify-content-between">
+            <h2 class="mx-0">Whether you're looking for a classic espresso or a specialty latte, we have something for
+                every coffee
+                lover at Brew Time.</h2>
+            <img src="assets/Images/Home/cof.svg" alt="svg">
+            <h2>Our carefully selected beans are roasted to perfection, ensuring a rich and full-bodied flavor in every
+                sip.</h2>
+        </div>
+    </section>
+    <!-- EXCLUSIVE Coffee Section -->
+    <section class="ex_cof">
+        <div class="ex_cof_box container">
+            <div class="ex_cof_tittle d-flex">
+                <img src="assets/Icons/line.svg" alt="svg">
+                <h2>EXCLUSIVE Coffee</h2>
+                <img src="assets/Icons/line.svg" alt="svg">
+            </div>
+            <div class="ex_cof_cards d-flex justify-content-between mt-4 flex-wrap">
+                <div class="card styled_card left_card hidden_card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Images/Home/americano1.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ameriacno</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, margin and padding.</p>
+                        <h4>$19.00</h4>
+                    </div>
+                </div>
+                <div class="card mid_card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Images/Home/americano2.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Capucino</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, margin and padding.</p>
+                        <h4>$20.00</h4>
+                    </div>
+                </div>
+                <div class="card hidden_card right_card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Images/Home/americano3.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Late</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, margin and padding.</p>
+                        <h4>$15.00</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="line_box d-flex justify-content-center mt-2">
+                <img class="left_swipe" src="assets/Icons/resplines.svg" alt="svg">
+                <img class="mid_swipe" class="mx-3 ml-3" src="assets/Icons/coloredrespline.svg" alt="svg">
+                <img class="right_swipe" src="assets/Icons/resplines.svg" alt="svg">
+            </div>
+        </div>
+    </section>
+    <!-- Mid Section -->
+    <section class="mid_section">
+        <div class="mid_sec_cont container">
+            <div class="menu_button d-flex justify-content-center">
+                <button class="light_btn" type="button">Menu</button>
+            </div>
+            <div class="mid_box d-flex">
+                <div class="mid_texts">
+                    <div class="mid_top_texts d-flex">
+                        <div class="mid_item">
+                            <img src="assets/Images/Home/500+.svg" alt="svg">
+                            <p>Over 500 cups brewed daily</p>
+                        </div>
+                        <div class="mid_item">
+                            <img src="assets/Images/Home/1000+.svg" alt="svg">
+                            <p>Join our community of 1,000+ daily customers</p>
+                        </div>
+                        <div class="mid_item">
+                            <img class="mid_item_left" src="assets/Images/Home/5.svg" alt="svg">
+                            <p>Visit one of our 5 convenient locations across the city</p>
+                        </div>
+                    </div>
+                    <div class="mid_bottom_texts">
+                        <h3>Join our community of coffee lovers and enjoy over 500 cups brewed daily by our expert
+                            baristas. With 5 convenient locations across the city, it's easy to savor our rich,
+                            full-bodied blends and friendly service. Trust our <span class="diff_text">passionate
+                                team</span> to deliver<span class="diff_text"> the perfect
+                                cup</span> every time.</h3>
+                    </div>
+                </div>
+                <div class="mid_img">
+                    <img src="assets/Images/Home/midcoffe.svg" alt="png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mid Bottom Secction -->
+    <section class="mid_bottom">
+        <div class="container mid_bottom_cont d-flex justify-content-between flex-wrap">
+            <img src="assets/Images/Home/Hilton_Worldwide_logo 1.svg" alt="svg">
+            <img src="assets/Images/Home/hotelresort.svg" alt="svg">
+            <img src="assets/Images/Home/aKa.svg" alt="svg">
+            <img src="assets/Images/Home/operahouse.svg" alt="svg">
+            <img src="assets/Images/Home/heliosopera.svg" alt="svg">
+        </div>
+    </section>
+    <!-- Bottom Top Section -->
+    <section class="bottom_top_section">
+        <div class="container">
+            <div class="bottom_top_texts">
+                <h2>Frequently Asked Questions</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, </p>
+            </div>
+            <div class="bottom_top_cards d-flex justify-content-between">
+                <div class="item">
+                    <div class="item_top d-flex">
+                        <img src="assets/Images/Home/ourcoffe.svg" alt="svg">
+                        <h2 class="mx-3">Our Coffee</h2>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the </p>
+                    <a href="#">See all</a>
+                </div>
+                <div class="item">
+                    <div class="item_top d-flex">
+                        <img src="assets/Images/Home/ourbeans.svg" alt="svg">
+                        <h2 class="mx-3">Our beans</h2>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the </p>
+                    <a href="#">See all</a>
+                </div>
+                <div class="item">
+                    <div class="item_top d-flex">
+                        <img src="assets/Images/Home/pastries.svg" alt="svg">
+                        <h2 class="mx-3">pastries</h2>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the </p>
+                    <a href="#">See all</a>
+                </div>
+                <div class="item">
+                    <div class="item_top d-flex">
+                        <img src="assets/Images/Home/preorders.svg" alt="svg">
+                        <h2 class="mx-3">pre-order</h2>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the </p>
+                    <a href="#">See all</a>
+                </div>
+            </div>
+            <div class="d-flex top_cont_btn bottom_top_sec_btn">
+                <button class="white_btn" type="button">About</button>
+                <button class="light_btn" type="button">Contact</button>
+            </div>
+        </div>
+    </section>
+    <!-- Our Guestbook Section -->
+    <section class="bottom">
+        <div class="container">
+            <div class="guestbook_tittle d-flex">
+                <img src="assets/Icons/line.svg" alt="svg">
+                <h3>OUR GUESTBOOK</h3>
+                <img src="assets/Icons/line.svg" alt="svg">
+            </div>
+            <div class="guestbook_box d-flex justify-content-between">
+                <div class="guestbook_item">
+                    <img src="assets/Images/Home/item1.svg" alt="svg">
+                    <p>Lorem ipsum dolor sit amet, ssfsf consectetur adipiscing elit. Nunc vulputate libero et velit
+                        interdum, ac aliquet odio mattis.</p>
+                    <div class="guest_avatar">
+                        <img class="avatar_img" src="assets/Images/Home/avatar1.svg" alt="svg">
+                        <h6>Kim Lee Jon <br>
+                            <p>Actor</p>
+                        </h6>
+                    </div>
+                </div>
+                <div class="styled_item">
+                    <img src="assets/Images/Home/item2.svg" alt="svg">
+                    <p>Lorem ipsum dolor sit amet, ssfsf consectetur adipiscing elit. Nunc vulputate libero et velit
+                        interdum, ac aliquet odio mattis.</p>
+                    <div class="guest_avatar">
+                        <img class="avatar_img" src="assets/Images/Home/avatar2.svg" alt="svg">
+                        <h5>Darel McLovin <br>
+                            <p>Driver</p>
+                        </h5>
+                    </div>
+                </div>
+                <div class="guestbook_item">
+                    <img src="assets/Images/Home/item1.svg" alt="svg">
+                    <p>Lorem ipsum dolor sit amet, ssfsf consectetur adipiscing elit. Nunc vulputate libero et velit
+                        interdum, ac aliquet odio mattis.</p>
+                    <div class="guest_avatar">
+                        <img class="avatar_img" src="assets/Images/Home/avatar3.svg" alt="svg">
+                        <h6>Alexa Blair <br>
+                            <p>Dancer</p>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer Top Section (map) -->
+    <section class="map_section">
+        <iframe src="https://maps.google.com/maps?q=tbilisicoffe&t=&z=10&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"></iframe>
+    </section>
+    <br>
+    <!-- footer top section -->
+    <section class="footer_top">
+        <div class="container">
+            <div class="footer_top_texts">
+                <h2>Get In Touch With Us</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, </p>
+            </div>
+            <form class="footer_top_form" action="#">
+                <div class="form_input d-flex justify-content-between">
+                    <input id="user1" class="name_inp" type="text" placeholder="Full Name">
+                    <input class="email_inp" style="margin-left: 24px;" type="text" placeholder="Emaill">
+                </div>
+                <input class="message_input" type="text" placeholder="Message">
+                <div class="d-flex top_cont_btn bottom_top_sec_btn">
+                    <button class="input_send_btn light_btn" type="button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer_box container d-flex justify-content-between flex-wrap ">
+            <div class="footer_logo_box">
+                <img class="footer_logo" src="assets/Images/Footer/Logo.svg" alt="Logo">
+                <div class="social_box d-flex">
+                    <img src="assets/Icons/facebook.svg" alt="svg">
+                    <img src="assets/Icons/google.svg" alt="svg">
+                    <img src="assets/Icons/apple.svg" alt="svg">
+                    <img src="assets/Icons/instagram.svg" alt="svg">
+                </div>
+            </div>
+            <div class="footer_texts d-flex flex-wrap">
+                <ul>
+                    <h4>Products</h4>
+                    <li>Features</li>
+                    <li>Solutions</li>
+                    <li>Integrations</li>
+                    <li>Enterprise</li>
+                    <li>Solutions</li>
+                </ul>
+                <ul style="margin-left: 125px;">
+                    <h4>Resources</h4>
+                    <li>Partners</li>
+                    <li>Community</li>
+                    <li>Developers</li>
+                    <li>App</li>
+                    <li>Blog</li>
+                </ul>
+                <ul style="margin-left: 125px; margin-right:125px ;">
+                    <h4>Why Choose Us?</h4>
+                    <li>Channels</li>
+                    <li>Scale</li>
+                    <li>Watch the Demo</li>
+                    <li>Our Competition</li>
+                </ul>
+                <ul>
+                    <h4>Company</h4>
+                    <li>About Us</li>
+                    <li>News</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+        </div>
+        <p>© 2023 Brew Time. All Rights Reserved.</p>
+    </footer>
+    <!-- Scripts -->
+    <script src="assets/Java Script/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
